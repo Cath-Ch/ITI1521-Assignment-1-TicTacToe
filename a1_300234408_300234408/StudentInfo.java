@@ -16,7 +16,7 @@ public class StudentInfo {
 
         System.out.println("************************************************************");
         System.out.println("* Student Name: Catherine Chen                             *");
-        System.out.println("* Student ID: 300234408                                    *");
+        System.out.println("* Student ID: Removed for privacy purpose                  *");
         System.out.println("* Course Code: ITI1521                                     *");
         System.out.println("* Section: A02                                             *");
         System.out.println("************************************************************");
