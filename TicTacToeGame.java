@@ -42,6 +42,7 @@ public class TicTacToeGame {
 	 */
 	int sizeWin;
 
+	
 	/**
 	 * Default constructor, for a game of 3x3, which must
 	 * align 3 cells.
@@ -56,6 +57,7 @@ public class TicTacToeGame {
 		this.board = new CellValue[this.lines * this.columns];
 		this.createEmptyBoard();	
 	}
+	
 	
 	/**
 	 * Constructor allowing to specify the number of lines
@@ -430,6 +432,7 @@ public class TicTacToeGame {
 		}
 		return result;
 	}
+	
 	
 	/**
 	 * A method that checks if the current board contains a
