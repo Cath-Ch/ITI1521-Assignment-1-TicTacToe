@@ -5,7 +5,6 @@
  * @author Guy-Vincent Jourdan, University of Ottawa
  * @author Catherine Chen, University of Ottawa
  */
-
 enum GameState{
 
 	PLAYING,
