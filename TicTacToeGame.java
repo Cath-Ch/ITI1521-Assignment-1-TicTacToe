@@ -9,37 +9,34 @@
  * @author Catherine Chen, University of Ottawa
  */
 public class TicTacToeGame {
-
-    /**
+	
+	/**
 	 * The board of the game, stored as a one dimension array.
 	 */
 	CellValue[] board;
-
-
-    /**
+	
+	/**
 	 * level records the number of rounds that have been
 	 * played so far. 
 	 */
 	int level;
-
-    /**
+	
+	/**
 	 * gameState records the current state of the game.
 	 */
 	GameState gameState;
-
-
-    /**
+	
+	/**
 	 * lines is the number of lines in the grid.
 	 */
 	int lines;
-
-    /**
+	
+	/**
  	 * columns is the number of columns in the grid.
 	 */
 	int columns;
-
-
-    /**
+	
+	/**
 	 * sizeWin is the number of cell of the same type
 	 * that must be aligned to win the game.
 	 */
@@ -65,10 +62,10 @@ public class TicTacToeGame {
 	 * and the number of columns for the game. 3 cells must
 	 * be aligned.
 	 * 
-   	 * @param lines
-     *  the number of lines in the game
-     * @param columns
-     *  the number of columns in the game
+   	 * @param lines 
+	 *  the number of lines in the game
+	 * @param columns
+	 *  the number of columns in the game
    	 */
 	public TicTacToeGame(int lines, int columns){
 
@@ -88,11 +85,11 @@ public class TicTacToeGame {
 	 * the number of cells that must be aligned to win.
 	 * 
    	 * @param lines
-     *  the number of lines in the game
-     * @param columns
-     *  the number of columns in the game
-     * @param sizeWin
-     *  the number of cells that must be aligned to win.
+	 *  the number of lines in the game
+	 * @param columns
+	 *  the number of columns in the game
+	 * @param sizeWin
+	 *  the number of cells that must be aligned to win.
   	 */
 	public TicTacToeGame(int lines, int columns, int sizeWin){
 
@@ -171,8 +168,8 @@ public class TicTacToeGame {
 	 * game.
 	 * 
 	 * @return 
-     * 	the value of the enum CellValue corresponding
-     * to the next expected value.
+	 * 	the value of the enum CellValue corresponding
+	 * to the next expected value.
   	 */
 	public CellValue nextCellValue(){
 
@@ -191,8 +188,8 @@ public class TicTacToeGame {
 	 * game.
 	 *
 	 * @return 
-     * 	the value of the enum CellValue corresponding
-     * to the current value.
+	 * 	the value of the enum CellValue corresponding
+	 * to the current value.
   	 */
 	public CellValue currentCellValue(){
 
@@ -210,9 +207,9 @@ public class TicTacToeGame {
 	 * printed out. The behaviour is then unspecified
 	 *
    	 * @param i
-     * 	the index of the cell in the array board
-     * @return 
-     * 	the value at index i in the variable board.
+	 * 	the index of the cell in the array board
+	 * @return 
+	 * 	the value at index i in the variable board.
   	 */
 	public CellValue valueAt(int i) {
 
@@ -236,8 +233,8 @@ public class TicTacToeGame {
 	 * the  winner of the game is the player who won first
 	 *
    	 * @param i
-     * 	the index of the cell in the array board that has been 
-     * selected by the next player
+	 * 	the index of the cell in the array board that has been 
+	 * selected by the next player
   	 */
 	public void play(int i) {
 		
@@ -412,7 +409,7 @@ public class TicTacToeGame {
 	 * @param i
 	 * 	the index of the cell in the array board that has just been set
 	 * @return
-	 *  boolean stating whether or not there's a vertical win
+	 * 	boolean stating whether or not there's a vertical win
 	 */
 	public boolean verticalCheck(CellValue[][] current_board, int i){
 
